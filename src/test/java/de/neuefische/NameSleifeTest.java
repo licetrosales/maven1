@@ -13,9 +13,9 @@ public class NameSleifeTest {
 
     String expected_result = "Lis";
     //WHEN
-    String result = NameSleife.writename1();
+    String result1 = NameSleife.writename1();
 
     //THEN
-    assertEquals(result, expected_result);
+    assertEquals(result1, expected_result);
 }
 }
